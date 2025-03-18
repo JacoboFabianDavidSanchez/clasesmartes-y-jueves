@@ -1,1 +1,14 @@
-.imagen {width: 200;
+.imagen {width: 200;}
+.title{font-size: 22px;display: flex;justify-content:center;color: rgb(255, 255, 255);background-color:
+     rgb(51, 51, 51);margin: 0%; padding: 10px;
+
+}
+.titulo { font-size: 22px;display: flex;justify-content:center;color: rgb(255, 255, 255);background-color:
+     rgb(70, 70, 70);margin: 0%; padding: 60px;
+
+}
+.navegador{ font-size: 10px;display: flex;justify-content:center;color: rgb(255, 255, 255);background-color:
+     rgb(60, 60, 60);margin: 0%;
+
+
+}
