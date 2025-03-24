@@ -1,18 +1,5 @@
-.imagen {width: 100;}
-.title{font-size: 22px;display: flex;justify-content:center;color: rgb(255, 255, 255);background-color:
-     rgb(51, 51, 51);margin: 0%; padding: 10px;
+*{ margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
 
 }
-.titulo { font-size: 22px;display: flex;justify-content:center;color: rgb(255, 255, 255);background-color:
-     rgb(70, 70, 70);margin: 0%; padding: 60px;
-
-}
-.navegador{ font-size: 10px;display: flex;justify-content:center;color: rgb(255, 255, 255);background-color:
-     rgb(60, 60, 60);margin: 0%;
-
-
-}
-.producto {font-size: 20px;   
-}
-.producto {margin: 0%;}
-.Destacados {margin: 0%;}
