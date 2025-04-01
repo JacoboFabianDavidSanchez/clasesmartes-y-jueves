@@ -16,12 +16,19 @@ body{
 nav ul {list-style: none;
         display: flex;
         align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        
+
         background-color: rgb(84, 84, 84);
         gap: 15px;
-       margin: 50px 50px 50px 50px;
+      
 
 }
 nav a{background-color: rgb(84, 84, 84);
+      display: block;
+      align-items: center;
    
      text-decoration: none;
       color: rgb(255, 255, 255);
@@ -36,6 +43,7 @@ h1 {display: block;
     text-align: center;
     width: 100%; 
     margin: 0%; 
+    padding: 30px;
 }
 
 .imagen{width: 50px; 
