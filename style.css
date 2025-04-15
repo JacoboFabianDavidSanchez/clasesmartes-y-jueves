@@ -31,6 +31,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+.nav ul li:hover {
+     transform: scale(1.1);
+    transition: 2s;
+    
+}
 .team-members {
     display: flex;
     justify-content: center;
@@ -66,7 +71,9 @@ h1 {display: block;
 }
 
 .imagen{width: 50px; 
-    height: auto;}
+    height: auto;
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    }
 
     .producto {display: inline-block;
 
@@ -119,6 +126,8 @@ h1 {display: block;
         align-items: center;
         justify-content: center;
         margin-bottom: 10px;
+        
+
     }
     
     .price {
@@ -139,6 +148,8 @@ h1 {display: block;
     
     button:hover {
         background: gray;
+        transform: scale(1.1);
+        transition: 2s;
     }
     
     footer {
@@ -158,21 +169,21 @@ h1 {display: block;
     }
     
     
-        .logo {
+.logo {
             width: 50px;
             height: 50px;
             object-fit: cover;
             border-radius: 8px;}
  .products {
-    width: 1200px;
-    height: 1200px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-     gap: 5px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
      padding: 0%;
      flex-direction: column; 
      align-items: center;     
             }
-            
-            
+ img:hover{ 
+         transform: scale(1.5);
+         transition: 2s;
+            }
