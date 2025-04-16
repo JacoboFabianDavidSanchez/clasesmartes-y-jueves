@@ -14,7 +14,7 @@
     <header>
         <div class="logo-title">
             <img src="assets/logo-sports-goods-food.jpg" alt="Logo Active Edge Sports" class="logo">
-            <h1 class="title">Active Edge Sports</h1>
+            <h1  class="animate__animated animate__backInDown">Active Edge Sports</h1>
         </div>
         <nav class="navegador">
             <ul>
@@ -26,14 +26,70 @@
                 <li><a href="products.html">Productos</a></li>
             </ul>
         </nav>
-        
+        <h2>Formulario Para inscripción</h2>
     </header>
-    <main>
-        
-        
+    <body>
+         <fieldset class="Personal"> <Legend >Datos Personales</Legend>
+            <form action="https://aulamindhub.github.io/dwm_show_data/show_data.html" method="get" target="_blank">
 
-    <footer>
-        <p>Proyecto de Jacobo Sanchez</p>
-    </footer>
-
-</html>
+                <label for="name">Nombre:</label>
+                <input id="name" type="text" name="first-name" placeholder="Ej: Manuel" required>
+            
+                <label for="surname">Apellido:</label>
+                <input id="surname" type="text" name="last-name" placeholder="Ej: Belgrano" required>
+            
+                <label for="age">Edad:</label>
+                <input id="age" type="number" name="age" min="1" max="120" required>
+            
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="Ej: usuario@mail.com" required>
+            
+                <fieldset>
+                  <legend>Conocimiento en el Gimnasio</legend>
+                  <div class="checkbox-group">
+                    <label><input type="checkbox" name="interest" value="Básico"> Básico</label>
+                    <label><input type="checkbox" name="interest" value="Medio"> Medio</label>
+                    <label><input type="checkbox" name="interest" value="Alto"> Alto</label>
+                    <label><input type="checkbox" name="interest" value="Experto"> Experto</label>
+                  </div>
+                </fieldset>
+            
+                <fieldset>
+                  <legend>Género</legend>
+                  <div class="radio-group">
+                    <label><input type="radio" name="gender" value="Femenino"> Femenino</label>
+                    <label><input type="radio" name="gender" value="Masculino"> Masculino</label>
+                  </div>
+                </fieldset>
+            
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+            
+                <fieldset>
+                  <legend>¿Deseas suscribirte?</legend>
+                  <label><input type="radio" name="subscribe" value="Sí"> Sí</label>
+                  <label><input type="radio" name="subscribe" value="No"> No</label>
+                </fieldset>
+            
+                <div class="form-buttons">
+                  <button type="reset">rehacer</button>
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+            
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d227660.82537658783!2d-65.21625750627946!3d-26.928860793517945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssporting%20tucuman!5e0!3m2!1ses-419!2sar!4v1744735593394!5m2!1ses-419!2sar"
+                width="500"
+                height="350"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            
+              <footer>
+                <p>Proyecto de Jacobo Sanchez</p>
+              </footer>
+            
+            </body>
+            </html>
