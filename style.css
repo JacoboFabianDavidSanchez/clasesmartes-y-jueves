@@ -145,7 +145,7 @@ h1 {display: block;
         padding: 10px;
         border: none;
         cursor: pointer;
-        width: 100%;
+        width: 40%;
         margin-top: 10px;
     }
     
@@ -153,6 +153,18 @@ h1 {display: block;
         background: gray;
         transform: scale(1.1);
         transition: 2s;
+    }
+    .boton_a:hover { background: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        width: 15%;
+        margin-top: 10px;
+        background: gray;
+        transform: scale(1.1);
+        transition: 2s;
+
     }
     
     footer {
