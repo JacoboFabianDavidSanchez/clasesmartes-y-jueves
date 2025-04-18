@@ -153,6 +153,7 @@ h1 {display: block;
         background: gray;
         transform: scale(1.1);
         transition: 2s;
+        border-radius: 15px;
     }
     .boton_a:hover { background: black;
         color: white;
@@ -268,7 +269,7 @@ th , td {
               button {
                 padding: 10px 20px;
                 margin: 10px;
-                border: none;
+                border-radius: 15px;
                 background-color: #333;
                 color: white;
                 cursor: pointer;
@@ -276,6 +277,7 @@ th , td {
               
               button:hover {
                 background-color: #555;
+                border-radius: 15px;
               }
               
               .form-buttons {
@@ -332,4 +334,7 @@ th , td {
             
             .whatsaap:hover {
                 transform: scale(1.1);
+            }
+            input:focus{background-color: #a9a9a9;
+
             }
