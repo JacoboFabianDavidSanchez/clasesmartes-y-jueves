@@ -35,7 +35,13 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+nav ul li a:hover{
+    background: gray;
+    transform: scale(1.1);
+    transition: 2s;
+    border-radius: 15px;
 
+}
 .team-members {
     display: flex;
     justify-content: center;
@@ -137,6 +143,7 @@ h1 {display: block;
         font-size: 18px;
         font-weight: bold;
         color: #333;
+        
     }
     
     .boton:hover {
@@ -338,3 +345,6 @@ th , td {
             input:focus{background-color: #a9a9a9;
 
             }
+            thead{ background-color: rgb(165, 255, 255);}
+           tfoot{background-color: rgb(252, 255, 172);}
+           table:hover{background-color: #8f8f8f;}
